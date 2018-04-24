@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS `sys_article` (
   `update_time` datetime DEFAULT NULL,
   PRIMARY KEY (`id_`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文章';
+/*添加一行注释*/
 
 -- 正在导出表  ibase4j.sys_article 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `sys_article` DISABLE KEYS */;
