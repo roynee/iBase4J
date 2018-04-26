@@ -27,6 +27,10 @@ public class SwaggerConfig {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).forCodeGeneration(true);
 	}
 
+	/***
+	 * 熟悉GitHub使用
+	 * @return
+	 */
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("iBase4J-API").description("©2016 Copyright. Powered By iBase4J.")
 				// .termsOfServiceUrl("")
